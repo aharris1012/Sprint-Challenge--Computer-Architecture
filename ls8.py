@@ -1,11 +1,9 @@
-
-
 """Main."""
 
 import sys
 from cpu import *
 
-     cpu = CPU()
+cpu = CPU()
 
-     cpu.load()
-     cpu.run()
+cpu.load()
+cpu.run()
